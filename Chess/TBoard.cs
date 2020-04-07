@@ -26,6 +26,7 @@ namespace Chess
                     cell.Board = this;
                     cell.X = x;
                     cell.Y = y;
+                    Cells[y, x] = cell;
                 }
             Reset();
         }
